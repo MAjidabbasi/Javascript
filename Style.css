@@ -1,0 +1,190 @@
+#body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+   
+}
+#header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+
+#main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#heading {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(0,102,179);
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#tab {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    
+}
+.row {
+    color: rgb(141,198,63);
+    font-size: 16px;
+    line-height: 1.7em;
+    
+    
+}
+
+/*#rollno {
+    margin-left: 30%;
+    position: absolute;
+}
+*/
+#sname,#fname,#roll,#html,#css1,#css2,#avg {
+    color: rgb(0,102,179);
+}
+.per {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    position: relative;
+    margin-top: 4%;
+}
+
+.footer {
+    display: block;
+    width: 55%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.limg {
+    display: block;
+    width: 25%;
+    margin-left: 77%;
+    margin-top: 17.7%;
+    position: absolute; 
+}
+ #rollno {
+     
+     position: absolute;
+     margin-left: 29%;
+ }
+#roll {
+    margin-left: 35%;
+    margin-top: .4%;
+    display: block;
+    position: absolute;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#sname {
+    color: rgb(141,198,63);
+    position: relative;
+    left: 215px;
+    font-size: 16px;
+    line-height: 2.5px;
+}
+#fname {
+    color: rgb(141,198,63);
+    position: relative;
+    left: 215px;
+    font-size: 16px;
+}
+ div {
+    margin-top: 95px;
+} 
+
+#roll {
+    font-size: 16px;
+    color: rgb(141,198,63);
+    position: absolute;
+    right: 295px;
+    top: 277px;
+}
+
+#html {
+    font-size: 16px;
+    color: rgb(141,198,63);
+    position: relative;
+    left: 215px;
+    letter-spacing:1.5px;
+}
+#css1 {
+    font-size: 16px;
+    color: rgb(141,198,63);
+    position: relative;
+    left: 215px;
+    letter-spacing: 2.574px;
+    word-spacing: 2.6px;
+}
+#css2 {
+    font-size: 16px;
+    color: rgb(141,198,63);
+    position: relative;
+    left: 215px;
+    letter-spacing: 2.6px;
+    word-spacing: 2.6px;
+}
+#average {
+font-size: 16px;
+    color: rgb(141,198,63);
+    position: relative;
+    left: 215px;
+    letter-spacing: 2.6px;
+    word-spacing: 2.6px;
+}
+
+#add {
+    position: relative;
+    left: 550px;
+    width: 200px;
+}

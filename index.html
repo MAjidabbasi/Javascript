@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saylani</title>
+    <link rel="stylesheet" href="Style.css">
+   <!-- <script src="script.js"></script> -->
+</head>
+
+<body>
+    
+    <div id="body">
+        
+    <div id="header">
+        
+    <img id="main" src="images/14494618_680000762163452_8977084060744446271_n.jpg" alt="main">
+    
+    <h1 id="heading">Saylani Welfare Mass Training And Job Creation Program</h1>
+    
+    <img id="logo" src="images/download.png" alt="logo">
+    
+    </div>
+    <br><br><br>
+    <div id="tab">
+        
+        <table>
+            <tr>
+                <td class="row">Student's Name :</td>
+                <td id="sname"></td>
+                <td class="row" id="rollno">Roll No.</td>
+                <td id="roll">_7565</td>
+            </tr>
+            <tr>
+                <td class="row"> Father's Name :</td>
+                <td id="fname">  </td>
+            </tr>
+            
+        </table>   
+      <script>
+		var name = prompt("Enter Your Name :","");
+ document.getElementById("sname").innerHTML = (name);
+ var Name = prompt("Enter Father Name :", "");
+ document.getElementById("fname").innerHTML = (Name);
+ var z = "_"
+ var r = parseInt(prompt("Enter Roll No. ", ""));
+ document.getElementById("roll").innerHTML = (z+r);
+ 
+ </script> 
+    </div>
+    
+    <div class="per">
+        <table>
+            <tr>
+        <td class="row">    Percentage in Hypertext Markup Language HTML : </td>
+        <td id="html"></td>    
+            </tr>
+            <tr>
+             <td class="row">Percentage in cascading Style Sheet (CSS1 test-1) :</td>
+             <td id="css1"></td>   
+            </tr>
+            <tr>
+                <td class="row">Percentage in cascading Style Sheet (CSS2 test-2) :</td>
+                <td id="css2"></td>
+            </tr>
+            <tr>
+              <td class="row">Average Percentage in All tests :</td>  
+              <td id="avg"></td>
+            </tr>
+        </table>
+       
+        <script>
+            var html = parseInt(prompt("Enter Percentage in HTML test :",""));
+            var b = "%"
+            document.getElementById("html").innerHTML = (html + b);
+            var css1 = parseInt(prompt("Enter Percentage in CSS1 Test : ", ""));
+            var d = "%"
+            document.getElementById("css1").innerHTML = (css1 + d);
+            var css2 = parseInt(prompt("Enter Percentage in CSS2 Test :",""));
+             document.getElementById("css2").innerHTML = (css2 + d);
+             var avg = (html + css1 + css2)/3;
+             document.getElementById("avg").innerHTML = (avg + d);
+        </script> 
+    </div>
+    
+    <div class="footer">
+        <img class="limg" src="images/14494644_680000788830116_7855985352041574162_n.jpg" alt="last iamge">
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <!-- <div>
+    
+    <p id="sname">Student Name :</p>
+    <p id="name"></p>
+    
+    <p id="fname">Father's Name :</p>
+    <p id="roll">Roll No.</p>
+    
+    <br>
+    <br>
+    
+  
+
+    <p id="html">Percentage in Hyper Text Markup Language (HTML): </p>
+    
+    <p id="css1">Percentage in Cascading Style Sheets (CSS1):</p>
+    
+    <p id="css2">Percentage in cascading Style Sheets (CSS2):</p>
+    
+    <p id="average">Avergrage percentage in all test:</p>
+    </div>
+    <br>
+    <img id="add" src="images/14494644_680000788830116_7855985352041574162_n.jpg" alt="Addvertisement">
+    
+    </div>
+    -->
+    
+    
+</body>
+</html>
